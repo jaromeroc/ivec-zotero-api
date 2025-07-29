@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, Response
 import requests
 
 app = Flask(__name__)
+CORS(app)
 
 ZOTERO_API_KEY = "2CVtgmulkLg4SDYMQkb1izUU"
 ZOTERO_USER_ID = "3598779"
