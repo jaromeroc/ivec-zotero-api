@@ -39,8 +39,3 @@ No compartimos ninguna información con terceros. Esta API no utiliza cookies, n
 ## 7. Cambios en la política
 
 Nos reservamos el derecho de modificar esta política en cualquier momento. Las actualizaciones se publicarán en esta sección con la nueva fecha de entrada en vigor.
-
-## 8. Contacto
-
-Para preguntas sobre esta política o el funcionamiento de la API, puedes escribir a:  
-📧 `tu-correo@ejemplo.com`
