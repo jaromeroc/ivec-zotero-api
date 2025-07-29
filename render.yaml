@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: zotero-api
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python zotero_proxy.py"
+    envVars:
+      - key: ZOTERO_API_KEY
+        value: 2CVtgmulkLg4SDYMQkb1izUU
