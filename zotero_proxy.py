@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify, Response
+from flask_cors import CORS
 import requests
+import os
 
 app = Flask(__name__)
-CORS(app)
+CORS(app)  # Habilita CORS para todas las rutas
 
 ZOTERO_API_KEY = "2CVtgmulkLg4SDYMQkb1izUU"
 ZOTERO_USER_ID = "3598779"
@@ -57,7 +59,5 @@ def bibtex_output():
     return Response(bib, mimetype='text/plain')
 
 if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=True)
-
